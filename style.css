@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#080b12;
+    color:white;
+    font-family:Arial, sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 60px;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+nav h2{
+    color:#00ccff;
+}
+
+nav div{
+    display:flex;
+    gap:15px;
+}
+
+nav a{
+    color:#000;
+    text-decoration:none;
+    background:#00ccff;
+    padding:10px 16px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:110px 30px 70px;
+}
+
+.hero h1{
+    font-size:52px;
+    color:#00ccff;
+    margin-bottom:25px;
+}
+
+.hero p{
+    max-width:850px;
+    margin:0 auto 35px;
+    font-size:21px;
+    line-height:1.6;
+    color:#d6d6d6;
+}
+
+.button{
+    display:inline-block;
+    background:#00ccff;
+    color:#000;
+    text-decoration:none;
+    padding:16px 30px;
+    border-radius:10px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:25px;
+    padding:40px 60px 100px;
+}
+
+.cards div{
+    background:#111827;
+    border:1px solid rgba(255,255,255,0.1);
+    padding:30px;
+    border-radius:16px;
+}
+
+.cards h3{
+    color:#00ccff;
+    margin-bottom:15px;
+}
+
+.cards p{
+    color:#d6d6d6;
+    line-height:1.5;
+}
+
+.player{
+    margin:30px auto;
+}
+
+input{
+    width:420px;
+    max-width:90%;
+    padding:15px;
+    font-size:18px;
+    border-radius:8px;
+    border:2px solid #00ccff;
+}
+
+button{
+    padding:15px 25px;
+    font-size:18px;
+    border-radius:8px;
+    border:none;
+    background:#00ccff;
+    color:#000;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+#videoBox{
+    margin-top:30px;
+}
+
+iframe{
+    max-width:90%;
+    border-radius:12px;
+}
