@@ -8,105 +8,102 @@
 </head>
 <body>
   <canvas id="networkCanvas"></canvas>
-  <div class="cursor-glow"></div>
+  <div class="site-glow"></div>
 
   <header class="navbar">
-    <a class="brand" href="index.html">
-      <span class="logo">3D</span>
-      <div>
-        <h2>3D Media Technologies</h2>
-        <p>Modern Media Technology for Virtual Worlds</p>
-      </div>
+    <a class="brand" href="index.html" aria-label="3D Media Technologies Home">
+      <span class="cube-logo"><i></i></span>
+      <span><strong>3D MEDIA</strong><small>TECHNOLOGIES</small></span>
     </a>
-    <button class="menu-toggle" aria-label="Open menu">☰</button>
     <nav>
       <a class="active" href="index.html">Home</a>
-      <a href="technology.html">Technology</a>
+      <a href="technology.html">Our Technology</a>
       <a href="demo.html">Live Demo</a>
+      <a href="#projects">Projects</a>
       <a href="roadmap.html">Roadmap</a>
+      <a href="#about">About</a>
       <a href="contact.html">Contact</a>
     </nav>
+    <a class="nav-cta" href="contact.html">Get in Touch</a>
   </header>
 
   <main>
-    <section class="hero hero-split">
+    <section class="hero hero-home">
       <div class="hero-copy reveal">
-        <p class="eyebrow">NEXT GENERATION MEDIA PLATFORM</p>
-        <h1>Modern media inside virtual worlds.</h1>
-        <p class="hero-text">3D Media Technologies helps bring premium shared media experiences back into digital rooms, virtual communities, and connected spaces.</p>
-        <p class="hero-subtext">Designed around secure playback, approved sources, modern web standards, and a future where people can watch, connect, and spend time together again.</p>
-        <div class="hero-buttons">
-          <a class="primary-btn" href="demo.html">View Live Demo</a>
-          <a class="secondary-btn" href="technology.html">Explore Technology</a>
+        <p class="eyebrow">3D MEDIA TECHNOLOGIES</p>
+        <h1>Restoring Media Experiences <span>For Virtual Worlds</span></h1>
+        <p class="hero-sub">We build modern, secure, and innovative media technology that reconnects people through immersive virtual world platforms.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="demo.html">View Live Demo <b>▶</b></a>
+          <a class="secondary-btn" href="technology.html">◇ Our Technology</a>
         </div>
       </div>
-
-      <div class="globe-stage reveal delay-1" aria-label="Animated technology globe">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="orbit orbit-three"></div>
-        <div class="digital-globe">
-          <span></span><span></span><span></span><span></span><span></span>
-        </div>
-        <div class="data-card data-card-one"><strong>SECURE</strong><small>Approved source validation</small></div>
-        <div class="data-card data-card-two"><strong>GLOBAL</strong><small>Connected shared rooms</small></div>
+      <div class="digital-globe" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="globe-lines"></div>
+        <span class="spark s1"></span><span class="spark s2"></span><span class="spark s3"></span><span class="spark s4"></span>
       </div>
+      <div class="scroll-cue"><span></span><p>SCROLL TO EXPLORE</p></div>
     </section>
 
-    <section class="trust-bar reveal">
-      <span>Secure Streaming</span>
-      <span>Virtual Rooms</span>
-      <span>Modern Web</span>
-      <span>Shared Experience</span>
-    </section>
-
-    <section class="cards-section">
-      <div class="section-title reveal">
+    <section class="technology-strip" id="about">
+      <div class="section-heading reveal">
         <p>OUR TECHNOLOGY</p>
-        <h2>Built like a real platform, not a basic website.</h2>
+        <h2>Powerful Solutions for Virtual Platforms</h2>
       </div>
-      <div class="cards">
-        <article class="card reveal"><div class="icon">📺</div><h3>Media Experience</h3><p>Restoring the feeling of sitting in a virtual room and watching content together with friends.</p><a href="technology.html">Learn More →</a></article>
-        <article class="card reveal delay-1"><div class="icon">🔐</div><h3>Secure Playback</h3><p>Built around approved media sources, safe link handling, and platform-friendly experiences.</p><a href="technology.html">Learn More →</a></article>
-        <article class="card reveal delay-2"><div class="icon">🌐</div><h3>Platform Ready</h3><p>Designed for virtual world environments while respecting existing systems and security.</p><a href="technology.html">Learn More →</a></article>
-        <article class="card reveal delay-3"><div class="icon">⚡</div><h3>Future Architecture</h3><p>Created with modern standards so the experience can evolve as virtual worlds grow.</p><a href="roadmap.html">Learn More →</a></article>
-      </div>
-    </section>
-
-    <section class="living-room-showcase reveal">
-      <div class="showcase-copy">
-        <p class="eyebrow">LIVE TECHNOLOGY</p>
-        <h2>A luxury smart-room feel for virtual media.</h2>
-        <p>The TV section is designed to feel premium, cinematic, and realistic — like the technology belongs inside a modern 3D home, not a plain placeholder box.</p>
-        <a class="primary-btn" href="demo.html">Open Demo</a>
-      </div>
-      <div class="room-art" aria-label="Modern living room with wall mounted TV">
-        <div class="wall-light"></div>
-        <div class="tv-frame">
-          <div class="tv-screen">
-            <div class="tv-globe"></div>
-            <p>3D Media Technologies</p>
-          </div>
-        </div>
-        <div class="console"></div>
-        <div class="floor"></div>
+      <div class="feature-grid">
+        <article class="feature-card reveal"><div class="line-icon tv"></div><h3>TV Media System</h3><p>Bringing television experiences back to virtual worlds with advanced streaming and interactive controls.</p><a href="technology.html">Learn More →</a></article>
+        <article class="feature-card reveal"><div class="line-icon lock"></div><h3>Secure Streaming</h3><p>Enterprise-grade encryption and secure delivery to protect content and users across all platforms.</p><a href="technology.html">Learn More →</a></article>
+        <article class="feature-card reveal"><div class="line-icon globe"></div><h3>Platform Integration</h3><p>Designed to work alongside supported virtual world platforms while respecting their existing systems and security.</p><a href="technology.html">Learn More →</a></article>
+        <article class="feature-card reveal"><div class="line-icon bolt"></div><h3>High Performance</h3><p>Optimized streaming technology for smooth playback, low latency, and the best user experience.</p><a href="technology.html">Learn More →</a></article>
       </div>
     </section>
 
-    <section class="stats-section">
-      <div class="stat-card reveal"><h3 data-count="100">0</h3><p>Approved-source focused</p></div>
-      <div class="stat-card reveal delay-1"><h3 data-count="24">0</h3><p>Built for always-on experiences</p></div>
-      <div class="stat-card reveal delay-2"><h3 data-count="3">0</h3><p>Designed for 3D virtual spaces</p></div>
-      <div class="stat-card reveal delay-3"><h3>Next</h3><p>Generation media technology</p></div>
+    <section class="cinema-panel reveal" id="projects">
+      <div class="demo-copy">
+        <p class="eyebrow">EXPERIENCE IT LIVE</p>
+        <h2>See Our Technology <span>In Action</span></h2>
+        <p>Watch our live demonstration and see how we're transforming media experiences in virtual worlds.</p>
+        <a class="primary-btn" href="demo.html">Watch Live Demo <b>▶</b></a>
+      </div>
+      <div class="living-room">
+        <div class="ceiling"></div><div class="window w1"></div><div class="window w2"></div>
+        <div class="wall-tv"><div class="tv-ui"><span></span><span></span><span></span><span></span></div><button class="big-play">▶</button></div>
+        <div class="couch"></div><div class="floor-light"></div>
+        <div class="player-bar"><b></b><i></i><em></em></div>
+      </div>
+    </section>
+
+    <section class="stats-grid reveal">
+      <article><div class="mini-icon users"></div><h3 data-count="25">25+</h3><p>Years of Combined Experience</p></article>
+      <article><div class="mini-icon shield"></div><h3>100%</h3><p>Secure & Encrypted Streaming</p></article>
+      <article><div class="mini-icon clock"></div><h3>24/7</h3><p>Platform Support & Monitoring</p></article>
+      <article><div class="mini-icon rocket"></div><h3>Next Gen</h3><p>Building the Future of Virtual Media</p></article>
+    </section>
+
+    <section class="roadmap-card reveal">
+      <div class="roadmap-top">
+        <div><p class="eyebrow">ROADMAP</p><h2>Our Journey Forward</h2><p>We're constantly innovating and building the future of media in virtual worlds.</p></div>
+        <a class="primary-btn compact" href="roadmap.html">View Full Roadmap</a>
+      </div>
+      <div class="timeline-line">
+        <div class="phase done"><span></span><h4>Phase 1<br>Media Core</h4><p>Completed</p></div>
+        <div class="phase active"><span></span><h4>Phase 2<br>Platform Integration</h4><p>In Progress</p></div>
+        <div class="phase"><span></span><h4>Phase 3<br>Advanced Features</h4><p>Q3 2026</p></div>
+        <div class="phase"><span></span><h4>Phase 4<br>Global Expansion</h4><p>Q4 2026</p></div>
+        <div class="phase"><span></span><h4>Phase 5<br>Next Generation Media</h4><p>2027+</p></div>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div><h3>3D Media Technologies</h3><p>Modern Media Technology for Virtual Worlds</p></div>
-    <div class="footer-links"><a href="technology.html">Technology</a><a href="demo.html">Demo</a><a href="roadmap.html">Roadmap</a><a href="contact.html">Contact</a></div>
-    <p>© 2026 3D Media Technologies. All Rights Reserved.</p>
+    <div class="footer-brand"><span class="cube-logo"><i></i></span><strong>3D MEDIA</strong><small>TECHNOLOGIES</small><p>Building innovative media technology that connects virtual worlds.</p><div class="socials"><span>𝕏</span><span>▶</span><span>⌾</span><span>⌘</span></div></div>
+    <div><h4>Company</h4><a href="#about">About Us</a><a href="technology.html">Our Technology</a><a href="#projects">Projects</a><a href="roadmap.html">Roadmap</a><a href="contact.html">Careers</a></div>
+    <div><h4>Resources</h4><a href="technology.html">Documentation</a><a href="technology.html">FAQs</a><a href="demo.html">API</a><a href="roadmap.html">Blog</a><a href="contact.html">Support</a></div>
+    <div><h4>Connect</h4><p>✉ hello@3dmediatech.com</p><p>◎ 3dmediatech.com</p><p>◎ Join our community</p></div>
+    <div><h4>Stay Updated</h4><p>Get the latest updates on our technology and projects.</p><form><input placeholder="Enter your email"><button>→</button></form></div>
+    <p class="copyright">© 2026 3D Media Technologies. All rights reserved.</p>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
